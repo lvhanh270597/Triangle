@@ -1,0 +1,10 @@
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.csprojResolveAssemblyReference.cache
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.Form1.resources
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.Properties.Resources.resources
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.csproj.GenerateResource.Cache
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\bin\Debug\TamGiac.exe.config
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\bin\Debug\TamGiac.exe
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\bin\Debug\TamGiac.pdb
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.exe
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\obj\Debug\TamGiac.pdb
+C:\Users\Hanh\documents\visual studio 2017\Projects\TamGiac\TamGiac\bin\Debug\NCalc.dll

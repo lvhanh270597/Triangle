@@ -1,0 +1,31 @@
+a 3 A B b b * Sin( A ) / Sin( B )
+a 3 A C c c * Sin( A ) / Sin( C )
+b 3 A B a a * Sin( B ) / Sin( A )
+b 3 C B c c * Sin( B ) / Sin( C )
+c 3 A C a a * Sin( C ) / Sin( A )
+c 3 B C b b * Sin( C ) / Sin( B )
+A 2 B C 3.1415292654 - B - C
+B 2 A C 3.1415292654 - A - C
+C 2 A B 3.1415292654 - B - A
+S 3 a b c Sqrt( ( ( a + b + c ) / 2 ) * ( ( a + b + c ) / 2 - a ) * ( ( a + b + c ) / 2 - b ) * ( ( a + b + c ) / 2 - c ) )
+S 2 a ha 0.5 * a * ha
+S 2 b hb 0.5 * b * hb
+S 2 c hc 0.5 c * hc
+a 2 S ha 2 * S / ha
+b 2 S hb 2 * S / hb
+c 2 S hc 2 * S / hc
+ha 2 S a 2 * S / a
+hb 2 S b 2 * S / b
+hc 2 S c 2 * S / c
+c 3 a b C Sqrt( a * a + b * b - 2 * a * b * Cos( C ) )
+a 3 b c A Sqrt( b * b + c * c - 2 * c * b * Cos( A ) )
+b 3 a c B Sqrt( a * a + c * c - 2 * c * a * Cos( B ) )
+C 3 a b c Acos( ( a * a + b * b - c * c ) / (2 * a * b ) )
+A 3 a b c Acos( ( c * c + b * b - a * a ) / (2 * c * b ) )
+B 3 a b c Acos( ( c * c + a * a - b * b ) / (2 * a * c ) )
+B 3 a b A Asin( b * Sin( A ) / a )
+A 3 a b B Asin( a * Sin( B ) / b )
+B 3 b c C Asin( b * Sin( C ) / c )
+A 3 a c C Asin( a * Sin( C ) / c )
+C 3 a c A Asin( c * Sin( A ) / a )
+C 3 b c B Asin( c * Sin( B ) / b )
